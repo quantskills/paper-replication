@@ -3,7 +3,7 @@ name: paper-replication
 description: Systematically reproduce quantitative finance papers with framework-neutral scripts, third-party market data, standalone research backtests, and packaged outputs.
 version: 2.0.2
 author: PandaAI
-license: MIT
+license: GPL-3.0-only
 metadata:
   tags: [quant, research, paper, replication, backtest]
   compatible_agents: [codex, hermes, claude-code, aider, cursor, generic-cli-agent]

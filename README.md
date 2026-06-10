@@ -131,3 +131,7 @@ and any stale-data caveat.
 - Use shifted weights/signals to avoid look-ahead bias.
 - Check generated JSON/CSV/PNG files are non-empty.
 - Explain metric gaps against the paper instead of hiding them.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
