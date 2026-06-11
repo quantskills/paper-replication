@@ -5,6 +5,12 @@ version: 2.0.2
 author: PandaAI
 license: GPL-3.0-only
 metadata:
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-paper-replication
+  repository_url: https://github.com/quantskills/skill-paper-replication
+  project_type: skill
+  collection: paper-replication
   tags: [quant, research, paper, replication, backtest]
   compatible_agents: [codex, hermes, claude-code, aider, cursor, generic-cli-agent]
 ---
