@@ -1,6 +1,8 @@
 ---
 name: paper-replication
-description: Systematically reproduce quantitative finance papers with framework-neutral scripts, third-party market data, standalone research backtests, and packaged outputs.
+description: Use when systematically reproducing quantitative finance papers with
+  framework-neutral scripts, third-party market data, standalone research backtests,
+  charts, metrics, and packaged outputs.
 version: 2.0.2
 author: PandaAI
 license: GPL-3.0-only
@@ -11,8 +13,40 @@ metadata:
   repository_url: https://github.com/quantskills/skill-paper-replication
   project_type: skill
   collection: paper-replication
-  tags: [quant, research, paper, replication, backtest]
-  compatible_agents: [codex, hermes, claude-code, aider, cursor, generic-cli-agent]
+  tags:
+  - quant
+  - research
+  - paper
+  - replication
+  - backtest
+  compatible_agents:
+  - codex
+  - hermes
+  - claude-code
+  - aider
+  - cursor
+  - generic-cli-agent
+quantSkills:
+  project_type: skill
+  category: replication
+  tags:
+  - paper-replication
+  - quant-finance
+  - backtest
+  - research
+  - workflow
+  platforms:
+  - claude-code
+  - codex
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: runnable
+  maintainer_type: official
+  summary_zh: 把一篇量化金融论文（arXiv 或本地 PDF），变成一套可运行、可审计的复现实验：检索 → 提取 → 回测 → 图表 → 指标对照，全程框架无关。
+  summary_en: Framework-neutral quantitative paper replication skill for research
+    scripts, backtests, charts, and auditable outputs.
+  license: GPL-3.0
 ---
 
 # Paper Replication
